@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../project_final_dsp.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0_funcsim.v"
+verilog xil_defaultlib  "../../../project_final_dsp.srcs/sources_1/ip/xbip_dsp48_macro_1/xbip_dsp48_macro_1_funcsim.v"
+verilog xil_defaultlib  "../../../project_final_dsp.srcs/sources_1/ip/xbip_dsp48_macro_2/xbip_dsp48_macro_2_funcsim.v"
+verilog xil_defaultlib  "../../../project_final_dsp.srcs/sources_1/new/dspmatrix.v"
+verilog xil_defaultlib  "../../../project_final_dsp.srcs/sources_1/new/test_dsp.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

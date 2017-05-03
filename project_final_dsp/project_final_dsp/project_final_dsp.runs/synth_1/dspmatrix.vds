@@ -1,0 +1,300 @@
+#-----------------------------------------------------------
+# Vivado v2014.3.1 (64-bit)
+# SW Build 1056140 on Thu Oct 30 16:32:04 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Sun Sep 25 23:33:17 2016
+# Process ID: 3320
+# Log file: /home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/synth_1/dspmatrix.vds
+# Journal file: /home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source dspmatrix.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7z020clg484-1
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir /home/saurabh/Desktop/project_final_dsp/project_final_dsp.cache/wt [current_project]
+# set_property parent.project_path /home/saurabh/Desktop/project_final_dsp/project_final_dsp.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# set_property board_part xilinx.com:zc702:part0:1.1 [current_project]
+# add_files -quiet /home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/xbip_dsp48_macro_0_synth_1/xbip_dsp48_macro_0.dcp
+# set_property used_in_implementation false [get_files /home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/xbip_dsp48_macro_0_synth_1/xbip_dsp48_macro_0.dcp]
+# add_files -quiet /home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/xbip_dsp48_macro_1_synth_1/xbip_dsp48_macro_1.dcp
+# set_property used_in_implementation false [get_files /home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/xbip_dsp48_macro_1_synth_1/xbip_dsp48_macro_1.dcp]
+# add_files -quiet /home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/xbip_dsp48_macro_2_synth_1/xbip_dsp48_macro_2.dcp
+# set_property used_in_implementation false [get_files /home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/xbip_dsp48_macro_2_synth_1/xbip_dsp48_macro_2.dcp]
+# read_verilog -library xil_defaultlib /home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/sources_1/new/dspmatrix.v
+# read_xdc /home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/constrs_1/new/timing.xdc
+# set_property used_in_implementation false [get_files /home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/constrs_1/new/timing.xdc]
+# catch { write_hwdef -file dspmatrix.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top dspmatrix -part xc7z020clg484-1
+Command: synth_design -top dspmatrix -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 867.582 ; gain = 140.293 ; free physical = 907 ; free virtual = 6051
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'dspmatrix' [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/sources_1/new/dspmatrix.v:3]
+INFO: [Synth 8-638] synthesizing module 'xbip_dsp48_macro_0' [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/synth_1/.Xil/Vivado-3320-saurabh/realtime/xbip_dsp48_macro_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'xbip_dsp48_macro_0' (1#1) [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/synth_1/.Xil/Vivado-3320-saurabh/realtime/xbip_dsp48_macro_0_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'xbip_dsp48_macro_1' [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/synth_1/.Xil/Vivado-3320-saurabh/realtime/xbip_dsp48_macro_1_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'xbip_dsp48_macro_1' (2#1) [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/synth_1/.Xil/Vivado-3320-saurabh/realtime/xbip_dsp48_macro_1_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'xbip_dsp48_macro_2' [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/synth_1/.Xil/Vivado-3320-saurabh/realtime/xbip_dsp48_macro_2_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'xbip_dsp48_macro_2' (3#1) [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.runs/synth_1/.Xil/Vivado-3320-saurabh/realtime/xbip_dsp48_macro_2_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'dspmatrix' (4#1) [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/sources_1/new/dspmatrix.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 903.824 ; gain = 176.535 ; free physical = 866 ; free virtual = 6014
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 903.824 ; gain = 176.535 ; free physical = 866 ; free virtual = 6014
+---------------------------------------------------------------------------------
+Loading clock regions from /home/saurabh/Vivado/2014.3.1/data/parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml
+Loading clock buffers from /home/saurabh/Vivado/2014.3.1/data/parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml
+Loading clock placement rules from /home/saurabh/Vivado/2014.3.1/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from /home/saurabh/Vivado/2014.3.1/data/parts/xilinx/zynq/PinFunctions.xml...
+Loading package from /home/saurabh/Vivado/2014.3.1/data/parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml
+Loading io standards from /home/saurabh/Vivado/2014.3.1/data/./parts/xilinx/zynq/IOStandards.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/constrs_1/new/timing.xdc]
+Finished Parsing XDC File [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/constrs_1/new/timing.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1156.281 ; gain = 0.000 ; free physical = 624 ; free virtual = 5815
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1156.281 ; gain = 428.992 ; free physical = 622 ; free virtual = 5815
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1156.281 ; gain = 428.992 ; free physical = 622 ; free virtual = 5815
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1156.281 ; gain = 428.992 ; free physical = 622 ; free virtual = 5815
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1156.281 ; gain = 428.992 ; free physical = 622 ; free virtual = 5815
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module dspmatrix 
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1156.281 ; gain = 428.992 ; free physical = 622 ; free virtual = 5815
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1156.281 ; gain = 428.992 ; free physical = 622 ; free virtual = 5815
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1156.281 ; gain = 428.992 ; free physical = 622 ; free virtual = 5815
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1156.281 ; gain = 428.992 ; free physical = 609 ; free virtual = 5803
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1156.281 ; gain = 428.992 ; free physical = 609 ; free virtual = 5803
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1156.281 ; gain = 428.992 ; free physical = 609 ; free virtual = 5803
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1156.281 ; gain = 428.992 ; free physical = 609 ; free virtual = 5803
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1197.281 ; gain = 469.992 ; free physical = 549 ; free virtual = 5752
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1197.281 ; gain = 469.992 ; free physical = 549 ; free virtual = 5752
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1207.293 ; gain = 480.004 ; free physical = 540 ; free virtual = 5743
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1207.293 ; gain = 480.004 ; free physical = 540 ; free virtual = 5743
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1207.293 ; gain = 480.004 ; free physical = 540 ; free virtual = 5743
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1207.293 ; gain = 480.004 ; free physical = 540 ; free virtual = 5743
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------+----------+
+|      |BlackBox name      |Instances |
++------+-------------------+----------+
+|1     |xbip_dsp48_macro_0 |         1|
+|2     |xbip_dsp48_macro_1 |         1|
+|3     |xbip_dsp48_macro_2 |         1|
++------+-------------------+----------+
+
+Report Cell Usage: 
++------+-------------------+------+
+|      |Cell               |Count |
++------+-------------------+------+
+|1     |xbip_dsp48_macro_0 |     1|
+|2     |xbip_dsp48_macro_1 |     1|
+|3     |xbip_dsp48_macro_2 |     1|
+|4     |IBUF               |    25|
+|5     |OBUF               |    10|
++------+-------------------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    62|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1207.293 ; gain = 480.004 ; free physical = 540 ; free virtual = 5743
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1207.293 ; gain = 129.250 ; free physical = 540 ; free virtual = 5743
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1207.293 ; gain = 480.004 ; free physical = 540 ; free virtual = 5743
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 1215.293 ; gain = 389.707 ; free physical = 530 ; free virtual = 5735
+# write_checkpoint dspmatrix.dcp
+# catch { report_utilization -file dspmatrix_utilization_synth.rpt -pb dspmatrix_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.14 . Memory (MB): peak = 1215.297 ; gain = 0.000 ; free physical = 530 ; free virtual = 5734
+INFO: [Common 17-206] Exiting Vivado at Sun Sep 25 23:33:56 2016...

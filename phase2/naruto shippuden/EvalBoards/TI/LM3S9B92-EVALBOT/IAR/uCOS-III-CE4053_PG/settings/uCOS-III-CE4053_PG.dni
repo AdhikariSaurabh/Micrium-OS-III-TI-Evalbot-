@@ -1,0 +1,90 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[LMIFTDIDriver]
+LMI_ResetMode=0x00000000
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[DebugChecksum]
+Checksum=-1078765715
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[struct_types]
+Fmt0=OS_TCB-PendStatus	3	0
+Fmt1=OS_TCB-Prio	3	0
+[watch_formats]
+Fmt0={W}0:OSPrioHighRdy	1	0
+Fmt1={W}0:OSPrioTbl[0]	4	0
+Fmt2={W}0:bit	4	0
+Fmt3={W}0:prio	1	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\..\..\..\Abhinav\Downloads\CE4053_Source_Code\Micrium\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR}.449.1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\..\..\..\Abhinav\Downloads\CE4053_Source_Code\Micrium\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR}.411.1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\..\..\..\Abhinav\Downloads\CE4053_Source_Code\Micrium\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR}.411.1" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\..\..\..\Abhinav\Downloads\CE4053_Source_Code\Micrium\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR}.412.21" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\app.c}.513.1" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$\app.c}.513.1" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{$PROJ_DIR$\app.c}.513.1" 0 0 0 0 "" 0 ""
+Bp7=_ "STD_CODE" "{$PROJ_DIR$\app.c}.475.1" 0 0 0 0 "" 0 ""
+Bp8=_ "STD_CODE" "{$PROJ_DIR$\app.c}.475.1" 0 0 0 0 "" 0 ""
+Bp9=_ "STD_CODE" "{$PROJ_DIR$\app.c}.475.1" 0 0 0 0 "" 0 ""
+Bp10=_ "STD_CODE" "{$PROJ_DIR$\app.c}.475.1" 0 0 0 0 "" 0 ""
+Bp11=_ "STD_CODE" "{$PROJ_DIR$\app.c}.475.1" 0 0 0 0 "" 0 ""
+Bp12=_ "STD_CODE" "{$PROJ_DIR$\app.c}.475.1" 0 0 0 0 "" 0 ""
+Bp13=_ "STD_CODE" "{$PROJ_DIR$\app.c}.475.1" 0 0 0 0 "" 0 ""
+Bp14=_ "STD_CODE" "{$PROJ_DIR$\app.c}.475.1" 0 0 0 0 "" 0 ""
+Bp15=_ "STD_CODE" "{$PROJ_DIR$\app.c}.475.1" 0 0 0 0 "" 0 ""
+Bp16=_ "STD_CODE" "{$PROJ_DIR$\app.c}.475.21" 0 0 0 0 "" 0 ""
+Bp17=_ "STD_CODE" "{$PROJ_DIR$\app.c}.483.21" 0 0 0 0 "" 0 ""
+Bp18=_ "STD_CODE" "{$PROJ_DIR$\app.c}.513.1" 0 0 0 0 "" 0 ""
+Bp19=_ "STD_CODE" "{$PROJ_DIR$\app.c}.513.1" 0 0 0 0 "" 0 ""
+Bp20=_ "STD_CODE" "{$PROJ_DIR$\app.c}.513.1" 0 0 0 0 "" 0 ""
+Bp21=_ "STD_CODE" "{$PROJ_DIR$\app.c}.513.1" 0 0 0 0 "" 0 ""
+Bp22=_ "STD_CODE" "{$PROJ_DIR$\app.c}.513.1" 0 0 0 0 "" 0 ""
+Bp23=_ "STD_CODE" "{$PROJ_DIR$\app.c}.513.1" 0 0 0 0 "" 0 ""
+Bp24=_ "STD_CODE" "{$PROJ_DIR$\app.c}.513.1" 0 0 0 0 "" 0 ""
+Bp25=_ "STD_CODE" "{$PROJ_DIR$\app.c}.513.1" 0 0 0 0 "" 0 ""
+Bp26=_ "STD_CODE" "{D:\eos project\phase2}.827.5" 0 0 0 0 "" 0 ""
+Bp27=_ "STD_CODE" "{D:\}.407.9" 0 0 0 0 "" 0 ""
+Bp28=_ "STD_CODE" "{D:\eos project\phase2}.633.5" 0 0 0 0 "" 0 ""
+Bp29=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\uCOS-III\Source\os_tick.c}.267.5" 0 0 0 0 "" 0 ""
+Bp30=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\uCOS-III\Source\os_task.c}.758.29" 1 0 0 0 "" 0 ""
+Bp31=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\uCOS-III\Source\os_task.c}.764.28" 1 0 0 0 "" 0 ""
+Count=32
+[Aliases]
+A0=_ "C:\Users\saurabh\Desktop\naruto shippuden\uC-CPU\cpu_core.c" ""
+A1=_ "C:\Users\saurabh\Desktop\naruto\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\BSP\bsp_motor.c" ""
+A2=_ "C:\Users\saurabh\Desktop\naruto\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\BSP\cpu_bsp.c" ""
+A3=_ "C:\Users\saurabh\Desktop\naruto\uC-CPU\ARM-Cortex-M3\IAR\cpu_a.asm" ""
+A4=_ "C:\Users\saurabh\Desktop\naruto\uC-CPU\ARM-Cortex-M3\IAR\cpu_c.c" ""
+A5=_ "C:\Users\saurabh\Desktop\naruto\uC-CPU\cpu_core.c" ""
+A6=_ "C:\Users\saurabh\Desktop\naruto\uCOS-III\Ports\ARM-Cortex-M3\Generic\IAR\os_cpu_a.asm" ""
+Count=7
+SuppressDialog=0

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.3.1 (64-bit)
+# SW Build 1056140 on Thu Oct 30 16:32:04 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Sun Sep 25 23:57:12 2016
+# Process ID: 4486
+# Log file: /home/saurabh/Desktop/project_final_dsp/project_final_dsp.sim/sim_1/behav/webtalk.log
+# Journal file: /home/saurabh/Desktop/project_final_dsp/project_final_dsp.sim/sim_1/behav/webtalk.jou
+#-----------------------------------------------------------
+source /home/saurabh/Desktop/project_final_dsp/project_final_dsp.sim/sim_1/behav/xsim.dir/test_dsp_behav/webtalk/xsim_webtalk.tcl -notrace

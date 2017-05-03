@@ -1,0 +1,999 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.60.2.5449/W32 for ARM               16/Mar/2017  21:29:05 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Exe\uCOS-III-Ex4.out                             #
+#    Map file     =  C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\List\uCOS-III-Ex4.map                            #
+#    Command line =  C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\adc.o C:\Users\saurabh\Desktop\Phase1_code&& #
+#                    report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR #
+#                    \uCOS-III-CE4053_PG\Flash\Obj\app.o                      #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\app_vect.o C:\Users\saurabh\Desktop\Phase1_c #
+#                    ode&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBO #
+#                    T\IAR\uCOS-III-CE4053_PG\Flash\Obj\bsp.o                 #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\bsp_dac.o C:\Users\saurabh\Desktop\Phase1_co #
+#                    de&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT #
+#                    \IAR\uCOS-III-CE4053_PG\Flash\Obj\bsp_display.o          #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\bsp_int.o C:\Users\saurabh\Desktop\Phase1_co #
+#                    de&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT #
+#                    \IAR\uCOS-III-CE4053_PG\Flash\Obj\bsp_io.o               #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\bsp_motor.o C:\Users\saurabh\Desktop\Phase1_ #
+#                    code&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALB #
+#                    OT\IAR\uCOS-III-CE4053_PG\Flash\Obj\bsp_sensors.o        #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\can.o C:\Users\saurabh\Desktop\Phase1_code&& #
+#                    report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR #
+#                    \uCOS-III-CE4053_PG\Flash\Obj\comp.o                     #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\cpu_.o C:\Users\saurabh\Desktop\Phase1_code& #
+#                    &report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\IA #
+#                    R\uCOS-III-CE4053_PG\Flash\Obj\cpu_a.o                   #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\cpu_bsp.o C:\Users\saurabh\Desktop\Phase1_co #
+#                    de&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT #
+#                    \IAR\uCOS-III-CE4053_PG\Flash\Obj\cpu_c.o                #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\cpu_core.o C:\Users\saurabh\Desktop\Phase1_c #
+#                    ode&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBO #
+#                    T\IAR\uCOS-III-CE4053_PG\Flash\Obj\epi.o                 #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\ethernet.o C:\Users\saurabh\Desktop\Phase1_c #
+#                    ode&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBO #
+#                    T\IAR\uCOS-III-CE4053_PG\Flash\Obj\fatfs.o               #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\flash.o C:\Users\saurabh\Desktop\Phase1_code #
+#                    &&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\I #
+#                    AR\uCOS-III-CE4053_PG\Flash\Obj\gpio.o                   #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\hibernate.o C:\Users\saurabh\Desktop\Phase1_ #
+#                    code&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALB #
+#                    OT\IAR\uCOS-III-CE4053_PG\Flash\Obj\i2c.o                #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\i2s.o C:\Users\saurabh\Desktop\Phase1_code&& #
+#                    report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR #
+#                    \uCOS-III-CE4053_PG\Flash\Obj\interrupt.o                #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\lib_ascii.o C:\Users\saurabh\Desktop\Phase1_ #
+#                    code&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALB #
+#                    OT\IAR\uCOS-III-CE4053_PG\Flash\Obj\lib_math.o           #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\lib_mem.o C:\Users\saurabh\Desktop\Phase1_co #
+#                    de&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT #
+#                    \IAR\uCOS-III-CE4053_PG\Flash\Obj\lib_str.o              #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\microsd.o C:\Users\saurabh\Desktop\Phase1_co #
+#                    de&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT #
+#                    \IAR\uCOS-III-CE4053_PG\Flash\Obj\mpu.o                  #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\os_app_hooks.o C:\Users\saurabh\Desktop\Phas #
+#                    e1_code&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EV #
+#                    ALBOT\IAR\uCOS-III-CE4053_PG\Flash\Obj\os_cfg_app.o      #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\os_core.o C:\Users\saurabh\Desktop\Phase1_co #
+#                    de&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT #
+#                    \IAR\uCOS-III-CE4053_PG\Flash\Obj\os_cpu_a.o             #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\os_cpu_c.o C:\Users\saurabh\Desktop\Phase1_c #
+#                    ode&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBO #
+#                    T\IAR\uCOS-III-CE4053_PG\Flash\Obj\os_dbg.o              #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\os_flag.o C:\Users\saurabh\Desktop\Phase1_co #
+#                    de&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT #
+#                    \IAR\uCOS-III-CE4053_PG\Flash\Obj\os_int.o               #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\os_mem.o C:\Users\saurabh\Desktop\Phase1_cod #
+#                    e&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\ #
+#                    IAR\uCOS-III-CE4053_PG\Flash\Obj\os_msg.o                #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\os_mutex.o C:\Users\saurabh\Desktop\Phase1_c #
+#                    ode&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBO #
+#                    T\IAR\uCOS-III-CE4053_PG\Flash\Obj\os_pend_multi.o       #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\os_prio.o C:\Users\saurabh\Desktop\Phase1_co #
+#                    de&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT #
+#                    \IAR\uCOS-III-CE4053_PG\Flash\Obj\os_q.o                 #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\os_sem.o C:\Users\saurabh\Desktop\Phase1_cod #
+#                    e&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\ #
+#                    IAR\uCOS-III-CE4053_PG\Flash\Obj\os_stat.o               #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\os_task.o C:\Users\saurabh\Desktop\Phase1_co #
+#                    de&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT #
+#                    \IAR\uCOS-III-CE4053_PG\Flash\Obj\os_tick.o              #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\os_time.o C:\Users\saurabh\Desktop\Phase1_co #
+#                    de&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT #
+#                    \IAR\uCOS-III-CE4053_PG\Flash\Obj\os_tmr.o               #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\os_var.o C:\Users\saurabh\Desktop\Phase1_cod #
+#                    e&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\ #
+#                    IAR\uCOS-III-CE4053_PG\Flash\Obj\pwm.o                   #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\qei.o C:\Users\saurabh\Desktop\Phase1_code&& #
+#                    report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR #
+#                    \uCOS-III-CE4053_PG\Flash\Obj\ssi.o                      #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\sysctl.o C:\Users\saurabh\Desktop\Phase1_cod #
+#                    e&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\ #
+#                    IAR\uCOS-III-CE4053_PG\Flash\Obj\systick.o               #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\timer.o C:\Users\saurabh\Desktop\Phase1_code #
+#                    &&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\I #
+#                    AR\uCOS-III-CE4053_PG\Flash\Obj\tree.o                   #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\uart.o C:\Users\saurabh\Desktop\Phase1_code& #
+#                    &report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\IA #
+#                    R\uCOS-III-CE4053_PG\Flash\Obj\udma.o                    #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Obj\usb.o C:\Users\saurabh\Desktop\Phase1_code&& #
+#                    report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR #
+#                    \uCOS-III-CE4053_PG\Flash\Obj\watchdog.o --redirect      #
+#                    _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o      #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\Exe\uCOS-III-Ex4.out --map                       #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\Flash\List\uCOS-III-Ex4.map --config                   #
+#                    C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phas #
+#                    e_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_P #
+#                    G\..\BSP\LM3S9B92_Flash.icf --semihosting --entry        #
+#                    __iar_program_start --vfe                                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = Basic
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at start of [0x00000000-0x0003ffff] { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0003ffff] { ro };
+"P7":  place in [from 0x20000000 to 0x20017fff] { rw, block HEAP, block CSTACK };
+
+  Section          Kind        Address    Size  Object
+  -------          ----        -------    ----  ------
+"A1":                                    0x11c
+  .intvec          const    0x00000000   0x11c  app_vect.o [1]
+                          - 0x0000011c   0x11c
+
+"P1":                                   0x4000
+  .text            ro code  0x0000011c   0x8c8  os_core.o [1]
+  .text            ro code  0x000009e4    0xe8  tree.o [1]
+  .text            ro code  0x00000acc   0x158  os_cpu_c.o [1]
+  .text            ro code  0x00000c24    0x88  os_prio.o [1]
+  .text            ro code  0x00000cac   0x7f0  os_task.o [1]
+  .text            ro code  0x0000149c   0x564  os_tick.o [1]
+  .text            ro code  0x00001a00    0xcc  os_msg.o [1]
+  .text            ro code  0x00001acc    0x1c  os_mutex.o [1]
+  .text            ro code  0x00001ae8    0x1c  os_q.o [1]
+  .text            ro code  0x00001b04   0x2e4  os_tmr.o [1]
+  .text            ro code  0x00001de8   0x1e0  os_dbg.o [1]
+  .text            ro code  0x00001fc8    0xe0  os_cfg_app.o [1]
+  CODE             ro code  0x000020a8    0x2a  cpu_a.o [1]
+  .text            ro code  0x000020d2    0x22  zero_init3.o [5]
+  .text            ro code  0x000020f4   0x1a0  cpu_core.o [1]
+  CODE             ro code  0x00002294    0x84  os_cpu_a.o [1]
+  .text            ro code  0x00002318    0x28  cpu_bsp.o [1]
+  .text            ro code  0x00002340     0x6  ABImemclr4.o [5]
+  .rodata          const    0x00002346     0x2  os_cfg_app.o [1]
+  .text            ro code  0x00002348    0x56  ABImemcpy_unaligned.o [5]
+  .rodata          const    0x0000239e     0x2  os_cfg_app.o [1]
+  .text            ro code  0x000023a0    0x48  os_time.o [1]
+  .text            ro code  0x000023e8    0x66  lib_mem.o [1]
+  .rodata          const    0x0000244e     0x2  os_cfg_app.o [1]
+  .text            ro code  0x00002450    0xa8  bsp.o [1]
+  .text            ro code  0x000024f8    0x32  ABImemset48.o [5]
+  .rodata          const    0x0000252a     0x2  os_dbg.o [1]
+  .text            ro code  0x0000252c   0x490  sysctl.o [1]
+  .text            ro code  0x000029bc   0x256  bsp_int.o [1]
+  .rodata          const    0x00002c12     0x2  os_dbg.o [1]
+  .text            ro code  0x00002c14   0x264  bsp_display.o [1]
+  .text            ro code  0x00002e78    0xa0  bsp_io.o [1]
+  .text            ro code  0x00002f18   0x154  bsp_sensors.o [1]
+  .text            ro code  0x0000306c   0x1f8  bsp_motor.o [1]
+  .text            ro code  0x00003264   0x13c  cpu_c.o [1]
+  .text            ro code  0x000033a0    0xac  i2c.o [1]
+  .text            ro code  0x0000344c   0x2d0  gpio.o [1]
+  .text            ro code  0x0000371c    0x98  pwm.o [1]
+  .text            ro code  0x000037b4   0x504  app.o [1]
+  .text            ro code  0x00003cb8    0x40  ethernet.o [1]
+  .rodata          const    0x00003cf8    0x5c  sysctl.o [1]
+  .rodata          const    0x00003d54    0x50  bsp_display.o [1]
+  .rodata          const    0x00003da4    0x48  gpio.o [1]
+  .rodata          const    0x00003dec    0x34  os_dbg.o [1]
+  .rodata          const    0x00003e20    0x30  os_dbg.o [1]
+  .rodata          const    0x00003e50    0x2c  os_dbg.o [1]
+  .rodata          const    0x00003e7c    0x28  os_dbg.o [1]
+  .rodata          const    0x00003ea4    0x28  os_dbg.o [1]
+  .text            ro code  0x00003ecc    0x28  data_init.o [5]
+  .iar.init_table  const    0x00003ef4    0x10  - Linker created -
+  .rodata          const    0x00003f04    0x20  os_dbg.o [1]
+  .text            ro code  0x00003f24    0x1a  cmain.o [5]
+  .text            ro code  0x00003f3e     0x4  low_level_init.o [3]
+  .text            ro code  0x00003f42     0x4  exit.o [3]
+  .rodata          const    0x00003f46     0x2  os_dbg.o [1]
+  .text            ro code  0x00003f48     0xa  cexit.o [5]
+  .rodata          const    0x00003f52     0x2  os_dbg.o [1]
+  .text            ro code  0x00003f54    0x14  exit.o [6]
+  .rodata          const    0x00003f68    0x18  os_tmr.o [1]
+  .rodata          const    0x00003f80    0x14  os_core.o [1]
+  .rodata          const    0x00003f94    0x14  os_tick.o [1]
+  .rodata          const    0x00003fa8    0x10  app.o [1]
+  .rodata          const    0x00003fb8    0x10  app.o [1]
+  .rodata          const    0x00003fc8    0x10  app.o [1]
+  .rodata          const    0x00003fd8    0x10  app.o [1]
+  .rodata          const    0x00003fe8    0x10  app.o [1]
+  .rodata          const    0x00003ff8    0x10  app.o [1]
+  .rodata          const    0x00004008     0xc  os_core.o [1]
+  .rodata          const    0x00004014     0xc  sysctl.o [1]
+  .rodata          const    0x00004020     0xc  sysctl.o [1]
+  .rodata          const    0x0000402c     0xc  sysctl.o [1]
+  .text            ro code  0x00004038     0xc  app_vect.o [1]
+  .text            ro code  0x00004044     0xc  cstartup_M.o [5]
+  .rodata          const    0x00004050     0x8  bsp_display.o [1]
+  .rodata          const    0x00004058     0x8  bsp_display.o [1]
+  .rodata          const    0x00004060     0x8  os_core.o [1]
+  .rodata          const    0x00004068     0x8  os_task.o [1]
+  .rodata          const    0x00004070     0x4  os_cfg_app.o [1]
+  .rodata          const    0x00004074     0x4  os_cfg_app.o [1]
+  .rodata          const    0x00004078     0x4  os_cfg_app.o [1]
+  .rodata          const    0x0000407c     0x4  os_cfg_app.o [1]
+  .rodata          const    0x00004080     0x4  os_cfg_app.o [1]
+  .rodata          const    0x00004084     0x4  os_cfg_app.o [1]
+  .rodata          const    0x00004088     0x4  os_cfg_app.o [1]
+  .rodata          const    0x0000408c     0x4  os_cfg_app.o [1]
+  .rodata          const    0x00004090     0x4  os_cfg_app.o [1]
+  .rodata          const    0x00004094     0x4  os_cfg_app.o [1]
+  .rodata          const    0x00004098     0x4  os_cfg_app.o [1]
+  .rodata          const    0x0000409c     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040a0     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040a4     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040a8     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040ac     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040b0     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040b4     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040b8     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040bc     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040c0     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040c4     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040c8     0x4  os_cfg_app.o [1]
+  .rodata          const    0x000040cc     0x4  os_dbg.o [1]
+  .rodata          const    0x000040d0     0x4  os_dbg.o [1]
+  .rodata          const    0x000040d4     0x4  os_dbg.o [1]
+  .rodata          const    0x000040d8     0x4  tree.o [1]
+  .rodata          const    0x000040dc     0x2  os_dbg.o [1]
+  .rodata          const    0x000040de     0x2  os_dbg.o [1]
+  .rodata          const    0x000040e0     0x2  os_dbg.o [1]
+  .rodata          const    0x000040e2     0x2  os_dbg.o [1]
+  .rodata          const    0x000040e4     0x2  os_dbg.o [1]
+  .rodata          const    0x000040e6     0x2  os_dbg.o [1]
+  .rodata          const    0x000040e8     0x2  os_dbg.o [1]
+  .rodata          const    0x000040ea     0x2  os_dbg.o [1]
+  .rodata          const    0x000040ec     0x2  os_dbg.o [1]
+  .rodata          const    0x000040ee     0x2  os_dbg.o [1]
+  .rodata          const    0x000040f0     0x2  os_dbg.o [1]
+  .rodata          const    0x000040f2     0x2  os_dbg.o [1]
+  .rodata          const    0x000040f4     0x2  os_dbg.o [1]
+  .rodata          const    0x000040f6     0x2  os_dbg.o [1]
+  .rodata          const    0x000040f8     0x2  os_dbg.o [1]
+  .rodata          const    0x000040fa     0x1  os_cfg_app.o [1]
+  .rodata          const    0x000040fb     0x1  os_cfg_app.o [1]
+  .rodata          const    0x000040fc     0x1  os_dbg.o [1]
+  .rodata          const    0x000040fd     0x1  os_dbg.o [1]
+  .rodata          const    0x000040fe     0x1  os_dbg.o [1]
+  .rodata          const    0x000040ff     0x1  os_dbg.o [1]
+  .rodata          const    0x00004100     0x1  os_dbg.o [1]
+  .rodata          const    0x00004101     0x1  os_dbg.o [1]
+  .rodata          const    0x00004102     0x1  os_dbg.o [1]
+  .rodata          const    0x00004103     0x1  os_dbg.o [1]
+  .rodata          const    0x00004104     0x1  os_dbg.o [1]
+  .rodata          const    0x00004105     0x1  os_dbg.o [1]
+  .rodata          const    0x00004106     0x1  os_dbg.o [1]
+  .rodata          const    0x00004107     0x1  os_dbg.o [1]
+  .rodata          const    0x00004108     0x1  os_dbg.o [1]
+  .rodata          const    0x00004109     0x1  os_dbg.o [1]
+  .rodata          const    0x0000410a     0x1  os_dbg.o [1]
+  .rodata          const    0x0000410b     0x1  os_dbg.o [1]
+  .rodata          const    0x0000410c     0x1  os_dbg.o [1]
+  .rodata          const    0x0000410d     0x1  os_dbg.o [1]
+  .rodata          const    0x0000410e     0x1  os_dbg.o [1]
+  .rodata          const    0x0000410f     0x1  os_dbg.o [1]
+  .rodata          const    0x00004110     0x1  os_dbg.o [1]
+  .rodata          const    0x00004111     0x1  os_dbg.o [1]
+  .rodata          const    0x00004112     0x1  os_dbg.o [1]
+  .rodata          const    0x00004113     0x1  os_dbg.o [1]
+  .rodata          const    0x00004114     0x1  os_dbg.o [1]
+  .rodata          const    0x00004115     0x1  os_dbg.o [1]
+  .rodata          const    0x00004116     0x1  os_dbg.o [1]
+  .rodata          const    0x00004117     0x1  os_dbg.o [1]
+  .rodata          const    0x00004118     0x1  os_dbg.o [1]
+  .rodata          const    0x00004119     0x1  os_dbg.o [1]
+  .rodata          const    0x0000411a     0x1  os_dbg.o [1]
+  .rodata          const    0x0000411b     0x1  os_dbg.o [1]
+  .rodata          const    0x0000411c     0x0  zero_init3.o [5]
+                          - 0x0000411c  0x4000
+
+"P7", part 1 of 2:                      0x27a8
+  .bss             zero     0x20000000   0x640  os_cfg_app.o [1]
+  .bss             zero     0x20000640   0x4b0  os_tick.o [1]
+  .bss             zero     0x20000af0   0x200  app.o [1]
+  .bss             zero     0x20000cf0   0x200  app.o [1]
+  .bss             zero     0x20000ef0   0x200  app.o [1]
+  .bss             zero     0x200010f0   0x200  app.o [1]
+  .bss             zero     0x200012f0   0x200  app.o [1]
+  .bss             zero     0x200014f0   0x200  app.o [1]
+  .bss             zero     0x200016f0   0x200  os_cfg_app.o [1]
+  .bss             zero     0x200018f0   0x200  os_cfg_app.o [1]
+  .bss             zero     0x20001af0   0x200  os_cfg_app.o [1]
+  .bss             zero     0x20001cf0   0x200  os_cfg_app.o [1]
+  .bss             zero     0x20001ef0   0x118  bsp_int.o [1]
+  .bss             zero     0x20002008    0xf0  os_var.o [1]
+  .bss             zero     0x200020f8    0x8c  app.o [1]
+  .bss             zero     0x20002184    0x8c  app.o [1]
+  .bss             zero     0x20002210    0x8c  app.o [1]
+  .bss             zero     0x2000229c    0x8c  app.o [1]
+  .bss             zero     0x20002328    0x8c  app.o [1]
+  .bss             zero     0x200023b4    0x8c  app.o [1]
+  .bss             zero     0x20002440    0x8c  os_var.o [1]
+  .bss             zero     0x200024cc    0x8c  os_var.o [1]
+  .bss             zero     0x20002558    0x8c  os_var.o [1]
+  .bss             zero     0x200025e4    0x68  os_cfg_app.o [1]
+  .bss             zero     0x2000264c    0x68  os_cfg_app.o [1]
+  .bss             zero     0x200026b4    0x3c  os_task.o [1]
+  .bss             zero     0x200026f0    0x1c  os_task.o [1]
+  .bss             zero     0x2000270c    0x10  cpu_core.o [1]
+  .bss             zero     0x2000271c     0x8  os_var.o [1]
+  .bss             zero     0x20002724     0x4  bsp.o [1]
+  .bss             zero     0x20002728     0x4  bsp_display.o [1]
+  .bss             zero     0x2000272c     0x4  cpu_core.o [1]
+  .bss             zero     0x20002730     0x4  cpu_core.o [1]
+  .bss             zero     0x20002734     0x4  cpu_core.o [1]
+  .bss             zero     0x20002738     0x4  cpu_core.o [1]
+  .bss             zero     0x2000273c     0x4  cpu_core.o [1]
+  .bss             zero     0x20002740     0x4  cpu_core.o [1]
+  .bss             zero     0x20002744     0x4  os_cpu_c.o [1]
+  .bss             zero     0x20002748     0x4  os_prio.o [1]
+  .bss             zero     0x2000274c     0x4  os_tick.o [1]
+  .bss             zero     0x20002750     0x4  os_var.o [1]
+  .bss             zero     0x20002754     0x4  os_var.o [1]
+  .bss             zero     0x20002758     0x4  os_var.o [1]
+  .bss             zero     0x2000275c     0x4  os_var.o [1]
+  .bss             zero     0x20002760     0x4  os_var.o [1]
+  .bss             zero     0x20002764     0x4  os_var.o [1]
+  .bss             zero     0x20002768     0x4  os_var.o [1]
+  .bss             zero     0x2000276c     0x4  os_var.o [1]
+  .bss             zero     0x20002770     0x4  os_var.o [1]
+  .bss             zero     0x20002774     0x4  os_var.o [1]
+  .bss             zero     0x20002778     0x4  os_var.o [1]
+  .bss             zero     0x2000277c     0x4  os_var.o [1]
+  .bss             zero     0x20002780     0x4  os_var.o [1]
+  .bss             zero     0x20002784     0x4  os_var.o [1]
+  .bss             zero     0x20002788     0x4  os_var.o [1]
+  .bss             zero     0x2000278c     0x4  os_var.o [1]
+  .bss             zero     0x20002790     0x4  os_var.o [1]
+  .bss             zero     0x20002794     0x2  cpu_core.o [1]
+  .bss             zero     0x20002796     0x2  cpu_core.o [1]
+  .bss             zero     0x20002798     0x2  os_var.o [1]
+  .bss             zero     0x2000279a     0x2  os_var.o [1]
+  .bss             zero     0x2000279c     0x2  os_var.o [1]
+  .bss             zero     0x2000279e     0x1  app.o [1]
+  .bss             zero     0x2000279f     0x1  app.o [1]
+  .bss             zero     0x200027a0     0x1  app.o [1]
+  .bss             zero     0x200027a1     0x1  app.o [1]
+  .bss             zero     0x200027a2     0x1  app.o [1]
+  .bss             zero     0x200027a3     0x1  os_var.o [1]
+  .bss             zero     0x200027a4     0x1  os_var.o [1]
+  .bss             zero     0x200027a5     0x1  os_var.o [1]
+  .bss             zero     0x200027a6     0x1  os_var.o [1]
+  .bss             zero     0x200027a7     0x1  os_var.o [1]
+                          - 0x200027a8  0x27a8
+
+"P7", part 2 of 2:                       0x400
+  CSTACK                    0x200027a8   0x400  <Block>
+    CSTACK         uninit   0x200027a8   0x400  <Block tail>
+                          - 0x20002ba8   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x27a8:
+          0x20000000  0x27a8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\Flash\Obj: [1]
+    app.o                    1 284       96    3 917
+    app_vect.o                  12      284
+    bsp.o                      168                 4
+    bsp_display.o              612       96        4
+    bsp_int.o                  598               280
+    bsp_io.o                   160
+    bsp_motor.o                504
+    bsp_sensors.o              340
+    cpu_a.o                     42
+    cpu_bsp.o                   40
+    cpu_c.o                    316
+    cpu_core.o                 416                44
+    ethernet.o                  64
+    gpio.o                     720       72
+    i2c.o                      172
+    lib_mem.o                  102
+    os_cfg_app.o               224      100    3 856
+    os_core.o                2 248       40
+    os_cpu_a.o                 132
+    os_cpu_c.o                 344                 4
+    os_dbg.o                   480      338
+    os_msg.o                   204
+    os_mutex.o                  28
+    os_prio.o                  136                 4
+    os_q.o                      28
+    os_task.o                2 032        8       88
+    os_tick.o                1 380       20    1 204
+    os_time.o                   72
+    os_tmr.o                   740       24
+    os_var.o                                     747
+    pwm.o                      152
+    sysctl.o                 1 168      128
+    tree.o                     232        4
+    ------------------------------------------------
+    Total:                  15 150    1 210   10 152
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+m7M_tl.a: [4]
+    ------------------------------------------------
+    Total:
+
+rt7M_tl.a: [5]
+    ABImemclr4.o                 6
+    ABImemcpy_unaligned.o       86
+    ABImemset48.o               50
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    zero_init3.o                34
+    ------------------------------------------------
+    Total:                     264
+
+shb_l.a: [6]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Linker created                       16    1 024
+----------------------------------------------------
+    Grand Total:            15 442    1 226   11 176
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x00003f25         Code  Gb  cmain.o [5]
+AppRobotMotorDriveSensorEnable
+                        0x00003a8f   0x20  Code  Lc  app.o [1]
+AppTaskFive             0x00003a59   0x36  Code  Lc  app.o [1]
+AppTaskFiveStk          0x200014f0  0x200  Data  Lc  app.o [1]
+AppTaskFiveTCB          0x200023b4   0x8c  Data  Lc  app.o [1]
+AppTaskFour             0x000039c1   0x26  Code  Lc  app.o [1]
+AppTaskFourStk          0x200012f0  0x200  Data  Lc  app.o [1]
+AppTaskFourTCB          0x20002328   0x8c  Data  Lc  app.o [1]
+AppTaskOne              0x000039e9   0x36  Code  Lc  app.o [1]
+AppTaskOneStk           0x20000cf0  0x200  Data  Lc  app.o [1]
+AppTaskOneTCB           0x20002184   0x8c  Data  Lc  app.o [1]
+AppTaskStart            0x00003809  0x18e  Code  Lc  app.o [1]
+AppTaskStartStk         0x20000af0  0x200  Data  Lc  app.o [1]
+AppTaskStartTCB         0x200020f8   0x8c  Data  Lc  app.o [1]
+AppTaskThree            0x00003999   0x26  Code  Lc  app.o [1]
+AppTaskThreeStk         0x200010f0  0x200  Data  Lc  app.o [1]
+AppTaskThreeTCB         0x2000229c   0x8c  Data  Lc  app.o [1]
+AppTaskTwo              0x00003a21   0x36  Code  Lc  app.o [1]
+AppTaskTwoStk           0x20000ef0  0x200  Data  Lc  app.o [1]
+AppTaskTwoTCB           0x20002210   0x8c  Data  Lc  app.o [1]
+App_BusFault_ISR        0x0000403d    0x2  Code  Lc  app_vect.o [1]
+App_Fault_ISR           0x0000403b    0x2  Code  Lc  app_vect.o [1]
+App_MemFault_ISR        0x00004041    0x2  Code  Lc  app_vect.o [1]
+App_NMI_ISR             0x00004039    0x2  Code  Lc  app_vect.o [1]
+App_Spurious_ISR        0x00004043    0x2  Code  Lc  app_vect.o [1]
+App_UsageFault_ISR      0x0000403f    0x2  Code  Lc  app_vect.o [1]
+BSP_BumpSensorsInit     0x00002f19   0x18  Code  Gb  bsp_sensors.o [1]
+BSP_CPUClkFreq          0x000024b5   0x12  Code  Gb  bsp.o [1]
+BSP_CPU_ClkFreq_MHz     0x20002724    0x4  Data  Gb  bsp.o [1]
+BSP_DisplayClear        0x00002ced   0x4c  Code  Gb  bsp_display.o [1]
+BSP_DisplayInit         0x00002d75   0xd8  Code  Gb  bsp_display.o [1]
+BSP_DisplayOn           0x00002d39   0x3c  Code  Gb  bsp_display.o [1]
+BSP_DisplayWriteArray   0x00002c6f   0x3e  Code  Lc  bsp_display.o [1]
+BSP_DisplayWriteByte    0x00002c3d   0x32  Code  Lc  bsp_display.o [1]
+BSP_DisplayWriteFinal   0x00002cad   0x40  Code  Lc  bsp_display.o [1]
+BSP_DisplayWriteFirst   0x00002c15   0x28  Code  Lc  bsp_display.o [1]
+BSP_Init                0x00002451   0x64  Code  Gb  bsp.o [1]
+BSP_IntDisAll           0x000029bd    0x8  Code  Gb  bsp_int.o [1]
+BSP_IntEn               0x000029c5   0x10  Code  Gb  bsp_int.o [1]
+BSP_IntHandler          0x00002beb   0x20  Code  Lc  bsp_int.o [1]
+BSP_IntHandlerADC0      0x00002a6f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerADC1      0x00002a79    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerADC1_0    0x00002ba5    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerADC1_1    0x00002baf    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerADC1_2    0x00002bb9    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerADC1_3    0x00002bc3    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerADC2      0x00002a83    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerADC3      0x00002a8d    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCAN0      0x00002b5f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCAN1      0x00002b69    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCOMP0     0x00002add    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCOMP1     0x00002ae7    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCOMP2     0x00002af1    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDummy     0x00002c11    0x2  Code  Lc  bsp_int.o [1]
+BSP_IntHandlerEPI       0x00002bd7    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerETH       0x00002b73    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerFLASH     0x00002b05    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerGPIOA     0x00002a15    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerGPIOB     0x00002a1f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerGPIOC     0x00002a29    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerGPIOD     0x00002a33    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerGPIOE     0x00002a3d    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerGPIOF     0x00002b0f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerGPIOG     0x00002b19    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerGPIOH     0x00002b23    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerGPIOJ     0x00002be1    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerHIBERNATE
+                        0x00002b7d    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerI2C0      0x00002a65    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerI2C1      0x00002b55    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerI2S0      0x00002bcd    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerSSI0      0x00002a5b    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerSSI1      0x00002b37    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerSYSCTL    0x00002afb    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIMER0A   0x00002aa1    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIMER0B   0x00002aab    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIMER1A   0x00002ab5    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIMER1B   0x00002abf    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIMER2A   0x00002ac9    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIMER2B   0x00002ad3    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIMER3A   0x00002b41    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIMER3B   0x00002b4b    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUART0     0x00002a47    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUART1     0x00002a51    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUART2     0x00002b2d    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUDMA_ERR  0x00002b9b    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUDMA_SW   0x00002b91    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUSB       0x00002b87    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerWATCHDOG  0x00002a97    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntInit             0x000029fd   0x18  Code  Gb  bsp_int.o [1]
+BSP_IntVectSet          0x000029d5   0x28  Code  Gb  bsp_int.o [1]
+BSP_IntVectTbl          0x20001ef0  0x118  Data  Lc  bsp_int.o [1]
+BSP_LED_Off             0x00002ed9   0x36  Code  Gb  bsp_io.o [1]
+BSP_LED_On              0x00002ea3   0x36  Code  Gb  bsp_io.o [1]
+BSP_LEDsInit            0x00002e91   0x12  Code  Gb  bsp_io.o [1]
+BSP_MotorDir            0x00003149   0x44  Code  Gb  bsp_motor.o [1]
+BSP_MotorRun            0x0000318d   0x1c  Code  Gb  bsp_motor.o [1]
+BSP_MotorSpeed          0x000031d9   0x76  Code  Gb  bsp_motor.o [1]
+BSP_MotorStop           0x000031a9   0x30  Code  Gb  bsp_motor.o [1]
+BSP_MotorsInit          0x0000306d   0xdc  Code  Gb  bsp_motor.o [1]
+BSP_PushButtonsInit     0x00002e79   0x18  Code  Gb  bsp_io.o [1]
+BSP_WheelSensorEnable   0x00002fd3    0xe  Code  Gb  bsp_sensors.o [1]
+BSP_WheelSensorIntEnable
+                        0x00002fe1   0x7e  Code  Gb  bsp_sensors.o [1]
+BSP_WheelSensorsInit    0x00002f31   0xa2  Code  Gb  bsp_sensors.o [1]
+CPU_CntLeadZeros        0x000020bf         Code  Gb  cpu_a.o [1]
+CPU_Init                0x000020f5   0x10  Code  Gb  cpu_core.o [1]
+CPU_IntDis              0x000020a9         Code  Gb  cpu_a.o [1]
+CPU_IntDisMeasCtr       0x20002794    0x2  Data  Gb  cpu_core.o [1]
+CPU_IntDisMeasInit      0x000021e7   0x74  Code  Lc  cpu_core.o [1]
+CPU_IntDisMeasMaxCalc   0x0000225b   0x14  Code  Lc  cpu_core.o [1]
+CPU_IntDisMeasMaxCurGet
+                        0x0000214d   0x1c  Code  Gb  cpu_core.o [1]
+CPU_IntDisMeasMaxCurReset
+                        0x0000212d   0x20  Code  Gb  cpu_core.o [1]
+CPU_IntDisMeasMaxCur_cnts
+                        0x2000273c    0x4  Data  Gb  cpu_core.o [1]
+CPU_IntDisMeasMax_cnts  0x20002740    0x4  Data  Gb  cpu_core.o [1]
+CPU_IntDisMeasOvrhd_cnts
+                        0x20002738    0x4  Data  Gb  cpu_core.o [1]
+CPU_IntDisMeasStart     0x00002169   0x28  Code  Gb  cpu_core.o [1]
+CPU_IntDisMeasStart_cnts
+                        0x20002730    0x4  Data  Gb  cpu_core.o [1]
+CPU_IntDisMeasStop      0x00002191   0x40  Code  Gb  cpu_core.o [1]
+CPU_IntDisMeasStop_cnts
+                        0x20002734    0x4  Data  Gb  cpu_core.o [1]
+CPU_IntDisNestCtr       0x20002796    0x2  Data  Gb  cpu_core.o [1]
+CPU_IntEn               0x000020ad         Code  Gb  cpu_a.o [1]
+CPU_IntSrcEn            0x00003265  0x12c  Code  Gb  cpu_c.o [1]
+CPU_Name                0x2000270c   0x10  Data  Gb  cpu_core.o [1]
+CPU_NameClr             0x00002105   0x22  Code  Gb  cpu_core.o [1]
+CPU_NameInit            0x000021d1    0x8  Code  Lc  cpu_core.o [1]
+CPU_RevBits             0x000020c5         Code  Gb  cpu_a.o [1]
+CPU_SR_Restore          0x000020b9         Code  Gb  cpu_a.o [1]
+CPU_SR_Save             0x000020b1         Code  Gb  cpu_a.o [1]
+CPU_TS_Init             0x000021d9    0xe  Code  Lc  cpu_core.o [1]
+CPU_TS_TmrFreqSet       0x00002127    0x6  Code  Gb  cpu_core.o [1]
+CPU_TS_TmrFreq_Hz       0x2000272c    0x4  Data  Gb  cpu_core.o [1]
+CPU_TS_TmrInit          0x00002319   0x18  Code  Gb  cpu_bsp.o [1]
+CPU_TS_TmrRd            0x00002331    0x6  Code  Gb  cpu_bsp.o [1]
+CPU_WaitForExcept       0x000020cf         Code  Gb  cpu_a.o [1]
+CPU_WaitForInt          0x000020cb         Code  Gb  cpu_a.o [1]
+CSTACK$$Base            0x200027a8          --   Gb  - Linker created -
+CSTACK$$Limit           0x20002ba8          --   Gb  - Linker created -
+EthernetPHYRead         0x00003cd9   0x20  Code  Gb  ethernet.o [1]
+EthernetPHYWrite        0x00003cb9   0x20  Code  Gb  ethernet.o [1]
+GPIODirModeSet          0x0000344d   0x46  Code  Gb  gpio.o [1]
+GPIOIntTypeSet          0x00003493   0x5a  Code  Gb  gpio.o [1]
+GPIOPadConfigSet        0x000034ed  0x10e  Code  Gb  gpio.o [1]
+GPIOPinConfigure        0x000036cd   0x46  Code  Gb  gpio.o [1]
+GPIOPinIntClear         0x00003633    0x8  Code  Gb  gpio.o [1]
+GPIOPinIntDisable       0x0000360d   0x12  Code  Gb  gpio.o [1]
+GPIOPinIntEnable        0x000035fb   0x12  Code  Gb  gpio.o [1]
+GPIOPinIntStatus        0x0000361f   0x14  Code  Gb  gpio.o [1]
+GPIOPinTypeGPIOInput    0x00003645   0x22  Code  Gb  gpio.o [1]
+GPIOPinTypeGPIOOutput   0x00003667   0x22  Code  Gb  gpio.o [1]
+GPIOPinTypeI2C          0x00003689   0x22  Code  Gb  gpio.o [1]
+GPIOPinTypePWM          0x000036ab   0x22  Code  Gb  gpio.o [1]
+GPIOPinWrite            0x0000363b    0xa  Code  Gb  gpio.o [1]
+I2CMasterControl        0x00003425    0x4  Code  Gb  i2c.o [1]
+I2CMasterDataPut        0x00003447    0x6  Code  Gb  i2c.o [1]
+I2CMasterEnable         0x000033df    0xa  Code  Gb  i2c.o [1]
+I2CMasterErr            0x00003429   0x1e  Code  Gb  i2c.o [1]
+I2CMasterInitExpClk     0x000033a1   0x3e  Code  Gb  i2c.o [1]
+I2CMasterIntStatus      0x000033e9   0x26  Code  Gb  i2c.o [1]
+I2CMasterSlaveAddrSet   0x00003419    0xc  Code  Gb  i2c.o [1]
+Insert_Ready_List       0x0000149d  0x146  Code  Gb  os_tick.o [1]
+IntWheelSensor          0x00003ab1   0xd2  Code  Gb  app.o [1]
+Left_tgt                0x2000279e    0x1  Data  Gb  app.o [1]
+Mem_Clr                 0x000023e9    0xc  Code  Gb  lib_mem.o [1]
+Mem_Set                 0x000023f5   0x5a  Code  Gb  lib_mem.o [1]
+Newperiod               0x20000640  0x4b0  Data  Gb  os_tick.o [1]
+OSCfg_DataSizeRAM       0x000040c8    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_ISRStk            0x200018f0  0x200  Data  Gb  os_cfg_app.o [1]
+OSCfg_ISRStkBasePtr     0x00004080    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_ISRStkSize        0x00004084    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_ISRStkSizeRAM     0x00004088    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStk       0x200016f0  0x200  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStkBasePtr
+                        0x00004070    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStkLimit  0x00004074    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStkSize   0x00004078    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStkSizeRAM
+                        0x0000407c    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_Init              0x00001fc9   0xe0  Code  Gb  os_cfg_app.o [1]
+OSCfg_MsgPool           0x20000000  0x640  Data  Gb  os_cfg_app.o [1]
+OSCfg_MsgPoolBasePtr    0x00004090    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_MsgPoolSize       0x00002346    0x2  Data  Gb  os_cfg_app.o [1]
+OSCfg_MsgPoolSizeRAM    0x0000408c    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_StkSizeMin        0x00004094    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickRate_Hz       0x00004098    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskPrio      0x000040fa    0x1  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStk       0x20001af0  0x200  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStkBasePtr
+                        0x0000409c    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStkLimit  0x000040a0    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStkSize   0x000040a4    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStkSizeRAM
+                        0x000040a8    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickWheel         0x200025e4   0x68  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickWheelSize     0x0000239e    0x2  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickWheelSizeRAM  0x000040ac    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskPrio       0x000040fb    0x1  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskRate_Hz    0x000040b0    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStk        0x20001cf0  0x200  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStkBasePtr
+                        0x000040b4    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStkLimit   0x000040b8    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStkSize    0x000040bc    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStkSizeRAM
+                        0x000040c0    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrWheel          0x2000264c   0x68  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrWheelSize      0x0000244e    0x2  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrWheelSizeRAM   0x000040c4    0x4  Data  Gb  os_cfg_app.o [1]
+OSDbg_AppHooksEn        0x000040fd    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_ArgChkEn          0x000040fc    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_CalledFromISRChkEn
+                        0x000040fe    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_DataSize          0x000040d4    0x4  Data  Gb  os_dbg.o [1]
+OSDbg_DbgEn             0x0000252a    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_EndiannessTest    0x000040cc    0x4  Data  Gb  os_dbg.o [1]
+OSDbg_FlagEn            0x000040ff    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_FlagGrp           0x00003e7c   0x28  Data  Gb  os_dbg.o [1]
+OSDbg_ISRPostDeferredEn
+                        0x00004100    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_Mem               0x00003f04   0x20  Data  Gb  os_dbg.o [1]
+OSDbg_MemEn             0x00004101    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_MsgEn             0x00004102    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_MsgPoolSize       0x00003f46    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_MsgQSize          0x00003f52    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_MsgSize           0x00002c12    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_Mutex             0x00003e50   0x2c  Data  Gb  os_dbg.o [1]
+OSDbg_MutexDelEn        0x00004104    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_MutexEn           0x00004103    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_MutexPendAbortEn  0x00004105    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_MutexSize         0x000040dc    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_ObjTypeChkEn      0x00004106    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_PendDataSize      0x000040de    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_PendListSize      0x000040e0    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_PendMultiEn       0x00004107    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_PendObjSize       0x000040e2    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_PrioMax           0x000040e4    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_PrioTblSize       0x000040e6    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_PtrSize           0x000040e8    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_Q                 0x00003e20   0x30  Data  Gb  os_dbg.o [1]
+OSDbg_QDelEn            0x00004109    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_QEn               0x00004108    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_QFlushEn          0x0000410a    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_QPendAbortEn      0x0000410b    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_QSize             0x000040ea    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_RdyList           0x000040ec    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_RdyListSize       0x000040d0    0x4  Data  Gb  os_dbg.o [1]
+OSDbg_SchedRoundRobinEn
+                        0x0000410c    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_Sem               0x00003ea4   0x28  Data  Gb  os_dbg.o [1]
+OSDbg_SemEn             0x0000410d    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_StatTaskEn        0x0000410f    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_StatTaskStkChkEn  0x00004110    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_StkWidth          0x0000410e    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TCBSize           0x000040f0    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_TaskChangePrioEn  0x00004111    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskDelEn         0x00004112    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskProfileEn     0x00004115    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskQEn           0x00004113    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskQPendAbortEn  0x00004114    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskRegTblSize    0x000040ee    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_TaskSemPendAbortEn
+                        0x00004116    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TaskSuspendEn     0x00004117    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TickSpokeSize     0x000040f2    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_TimeDlyHMSMEn     0x00004118    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TimeDlyResumeEn   0x00004119    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_Tmr               0x00003dec   0x34  Data  Gb  os_dbg.o [1]
+OSDbg_TmrDelEn          0x0000411b    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TmrEn             0x0000411a    0x1  Data  Gb  os_dbg.o [1]
+OSDbg_TmrSize           0x000040f4    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_TmrSpokeSize      0x000040f6    0x2  Data  Gb  os_dbg.o [1]
+OSDbg_VersionNbr        0x000040f8    0x2  Data  Gb  os_dbg.o [1]
+OSIdleTaskCtr           0x20002750    0x4  Data  Gb  os_var.o [1]
+OSIdleTaskHook          0x00000acd    0x2  Code  Gb  os_cpu_c.o [1]
+OSIdleTaskTCB           0x20002440   0x8c  Data  Gb  os_var.o [1]
+OSInit                  0x0000011d   0xd0  Code  Gb  os_core.o [1]
+OSInitHook              0x00000acf   0x14  Code  Gb  os_cpu_c.o [1]
+OSIntEnter              0x000001ed   0x24  Code  Gb  os_core.o [1]
+OSIntExit               0x00000211   0xb2  Code  Gb  os_core.o [1]
+OSIntNestingCtr         0x200027a3    0x1  Data  Gb  os_var.o [1]
+OSMsgPool               0x2000271c    0x8  Data  Gb  os_var.o [1]
+OSMutexDbgListPtr       0x20002754    0x4  Data  Gb  os_var.o [1]
+OSMutexQty              0x20002798    0x2  Data  Gb  os_var.o [1]
+OSPrioCur               0x200027a5    0x1  Data  Gb  os_var.o [1]
+OSPrioHighRdy           0x200027a6    0x1  Data  Gb  os_var.o [1]
+OSPrioTbl               0x20002748    0x4  Data  Gb  os_prio.o [1]
+OSQDbgListPtr           0x20002758    0x4  Data  Gb  os_var.o [1]
+OSQQty                  0x2000279a    0x2  Data  Gb  os_var.o [1]
+OSRdyList               0x20002008   0xf0  Data  Gb  os_var.o [1]
+OSRecTaskCreate         0x00000db9  0x14a  Code  Gb  os_task.o [1]
+OSRecTaskDelete         0x00001007   0xe2  Code  Gb  os_task.o [1]
+OSRunning               0x200027a4    0x1  Data  Gb  os_var.o [1]
+OSSched                 0x000002c3   0x78  Code  Gb  os_core.o [1]
+OSSchedLock             0x0000033b   0x68  Code  Gb  os_core.o [1]
+OSSchedLockNestingCtr   0x200027a7    0x1  Data  Gb  os_var.o [1]
+OSSchedLockTimeBegin    0x2000275c    0x4  Data  Gb  os_var.o [1]
+OSSchedLockTimeMax      0x20002760    0x4  Data  Gb  os_var.o [1]
+OSSchedLockTimeMaxCur   0x20002764    0x4  Data  Gb  os_var.o [1]
+OSSchedUnlock           0x000003a3   0x88  Code  Gb  os_core.o [1]
+OSStart                 0x0000042b   0x64  Code  Gb  os_core.o [1]
+OSStartHighRdy          0x00002295         Code  Gb  os_cpu_a.o [1]
+OSTCBCurPtr             0x2000278c    0x4  Data  Gb  os_var.o [1]
+OSTCBHighRdyPtr         0x20002790    0x4  Data  Gb  os_var.o [1]
+OSTaskCreate            0x00000cad  0x10c  Code  Gb  os_task.o [1]
+OSTaskCreateHook        0x00000ae3    0x2  Code  Gb  os_cpu_c.o [1]
+OSTaskCtxSwCtr          0x20002768    0x4  Data  Gb  os_var.o [1]
+OSTaskDbgListPtr        0x2000276c    0x4  Data  Gb  os_var.o [1]
+OSTaskDel               0x00000f03  0x104  Code  Gb  os_task.o [1]
+OSTaskDelHook           0x00000ae5    0x2  Code  Gb  os_cpu_c.o [1]
+OSTaskQty               0x2000279c    0x2  Data  Gb  os_var.o [1]
+OSTaskReturnHook        0x00000ae7    0x2  Code  Gb  os_cpu_c.o [1]
+OSTaskSemPend           0x000010e9  0x146  Code  Gb  os_task.o [1]
+OSTaskSemPost           0x0000122f   0x1c  Code  Gb  os_task.o [1]
+OSTaskStkInit           0x00000ae9   0x80  Code  Gb  os_cpu_c.o [1]
+OSTaskSwHook            0x00000b69   0x36  Code  Gb  os_cpu_c.o [1]
+OSTickCtr               0x20002770    0x4  Data  Gb  os_var.o [1]
+OSTickTaskTCB           0x200024cc   0x8c  Data  Gb  os_var.o [1]
+OSTickTaskTimeMax       0x20002774    0x4  Data  Gb  os_var.o [1]
+OSTimeTick              0x000023a1   0x36  Code  Gb  os_time.o [1]
+OSTimeTickHook          0x00000b9f    0x2  Code  Gb  os_cpu_c.o [1]
+OSTmrDbgListPtr         0x20002778    0x4  Data  Gb  os_var.o [1]
+OSTmrTaskTCB            0x20002558   0x8c  Data  Gb  os_var.o [1]
+OSTmrTaskTimeMax        0x2000277c    0x4  Data  Gb  os_var.o [1]
+OSTmrTickCtr            0x20002780    0x4  Data  Gb  os_var.o [1]
+OSTmrUpdateCnt          0x20002784    0x4  Data  Gb  os_var.o [1]
+OSTmrUpdateCtr          0x20002788    0x4  Data  Gb  os_var.o [1]
+OS_CPU_ExceptStkBase    0x20002744    0x4  Data  Gb  os_cpu_c.o [1]
+OS_CPU_PendSVHandler    0x000022b1         Code  Gb  os_cpu_a.o [1]
+OS_CPU_SysTickHandler   0x00000ba1   0x2c  Code  Gb  os_cpu_c.o [1]
+OS_CPU_SysTickInit      0x00000bcd   0x2c  Code  Gb  os_cpu_c.o [1]
+OS_Dbg_Init             0x00001de9  0x1e0  Code  Gb  os_dbg.o [1]
+OS_IdleTask             0x0000048f   0x2c  Code  Gb  os_core.o [1]
+OS_IdleTaskInit         0x000004bb   0x50  Code  Gb  os_core.o [1]
+OS_MsgPoolCreate        0x00001a01   0x3c  Code  Gb  os_msg.o [1]
+OS_MsgPoolInit          0x00001a3d   0x2c  Code  Gb  os_msg.o [1]
+OS_MsgQFreeAll          0x00001a69   0x44  Code  Gb  os_msg.o [1]
+OS_MsgQInit             0x00001aad   0x14  Code  Gb  os_msg.o [1]
+OS_MutexInit            0x00001acd   0x12  Code  Gb  os_mutex.o [1]
+OS_Pend                 0x0000050b   0x6c  Code  Gb  os_core.o [1]
+OS_PendDataInit         0x00000577   0x34  Code  Gb  os_core.o [1]
+OS_PendDbgNameAdd       0x000005ab   0x42  Code  Gb  os_core.o [1]
+OS_PendDbgNameRemove    0x000005ed   0x1e  Code  Gb  os_core.o [1]
+OS_PendListInsertPrio   0x0000060b   0x6e  Code  Gb  os_core.o [1]
+OS_PendListRemove       0x00000679   0x28  Code  Gb  os_core.o [1]
+OS_PendListRemove1      0x000006a1   0x48  Code  Gb  os_core.o [1]
+OS_Post                 0x000006e9   0xc0  Code  Gb  os_core.o [1]
+OS_Post1                0x000007a9   0x26  Code  Gb  os_core.o [1]
+OS_PrioGetHighest       0x00000c39   0x20  Code  Gb  os_prio.o [1]
+OS_PrioInit             0x00000c25   0x14  Code  Gb  os_prio.o [1]
+OS_PrioInsert           0x00000c59   0x26  Code  Gb  os_prio.o [1]
+OS_PrioRemove           0x00000c7f   0x28  Code  Gb  os_prio.o [1]
+OS_QInit                0x00001ae9   0x12  Code  Gb  os_q.o [1]
+OS_RdyListInit          0x000007cf   0x24  Code  Gb  os_core.o [1]
+OS_RdyListInsert        0x000007f9   0x28  Code  Gb  os_core.o [1]
+OS_RdyListInsertHead    0x00000821   0x3a  Code  Gb  os_core.o [1]
+OS_RdyListInsertTail    0x0000085b   0x38  Code  Gb  os_core.o [1]
+OS_RdyListRemove        0x00000893   0x5c  Code  Gb  os_core.o [1]
+OS_SchedLockTimeMeasStart
+                        0x000008ef   0x14  Code  Gb  os_core.o [1]
+OS_SchedLockTimeMeasStop
+                        0x00000903   0x2e  Code  Gb  os_core.o [1]
+OS_TaskBlock            0x00000991   0x3a  Code  Gb  os_core.o [1]
+OS_TaskDbgListAdd       0x0000124b   0x2c  Code  Gb  os_task.o [1]
+OS_TaskDbgListRemove    0x00001277   0x4a  Code  Gb  os_task.o [1]
+OS_TaskInit             0x000012c1   0x18  Code  Gb  os_task.o [1]
+OS_TaskInitTCB          0x000012d9   0xa8  Code  Gb  os_task.o [1]
+OS_TaskRdy              0x000009cb   0x1a  Code  Gb  os_core.o [1]
+OS_TaskReturn           0x00001389    0xc  Code  Gb  os_task.o [1]
+OS_TaskSemPost          0x00001399   0xd4  Code  Gb  os_task.o [1]
+OS_TickListInit         0x0000169b   0x2a  Code  Gb  os_tick.o [1]
+OS_TickListInsert       0x000016c5  0x11c  Code  Gb  os_tick.o [1]
+OS_TickListRemove       0x000017e1   0x42  Code  Gb  os_tick.o [1]
+OS_TickListUpdate       0x00001823  0x198  Code  Gb  os_tick.o [1]
+OS_TickTask             0x000015e3   0x44  Code  Gb  os_tick.o [1]
+OS_TickTaskInit         0x00001627   0x74  Code  Gb  os_tick.o [1]
+OS_TmrInit              0x00001b05   0xda  Code  Gb  os_tmr.o [1]
+OS_TmrLink              0x00001bdf   0xd0  Code  Gb  os_tmr.o [1]
+OS_TmrTask              0x00001cfd   0xaa  Code  Gb  os_tmr.o [1]
+OS_TmrUnlink            0x00001caf   0x4c  Code  Gb  os_tmr.o [1]
+PWMGenConfigure         0x0000371d   0x28  Code  Gb  pwm.o [1]
+PWMGenEnable            0x00003759    0xa  Code  Gb  pwm.o [1]
+PWMGenPeriodSet         0x00003745   0x14  Code  Gb  pwm.o [1]
+PWMOutputInvert         0x0000379f   0x16  Code  Gb  pwm.o [1]
+PWMOutputState          0x00003789   0x16  Code  Gb  pwm.o [1]
+PWMPulseWidthSet        0x00003763   0x26  Code  Gb  pwm.o [1]
+Region$$Table$$Base     0x00003ef4          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00003f04          --   Gb  - Linker created -
+Right_tgt               0x2000279f    0x1  Data  Gb  app.o [1]
+RoboTurn                0x00003b83   0xc6  Code  Gb  app.o [1]
+SysCtlClockGet          0x00002743  0x200  Code  Gb  sysctl.o [1]
+SysCtlClockSet          0x000025e1  0x162  Code  Gb  sysctl.o [1]
+SysCtlDelay             0x000025d9    0x8  Code  Gb  sysctl.o [1]
+SysCtlPWMClockSet       0x00002943   0x10  Code  Gb  sysctl.o [1]
+SysCtlPeripheralDeepSleepDisable
+                        0x000025b3   0x26  Code  Gb  sysctl.o [1]
+SysCtlPeripheralEnable  0x0000258d   0x26  Code  Gb  sysctl.o [1]
+SysCtlPeripheralReset   0x0000252d   0x60  Code  Gb  sysctl.o [1]
+TASK                    0x200026b4   0x3c  Data  Gb  os_task.o [1]
+__aeabi_memclr4         0x00002341         Code  Gb  ABImemclr4.o [5]
+__cmain                 0x00003f25         Code  Gb  cmain.o [5]
+__exit                  0x00003f55   0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word      0x000024f9         Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x000024f9         Code  Gb  ABImemset48.o [5]
+__iar_data_init3        0x00003ecd   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x00004045         Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x00002349         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x00002349         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x000020d3   0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x00003f3f    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000  0x11c  Data  Gb  app_vect.o [1]
+_call_main              0x00003f31         Code  Gb  cmain.o [5]
+_exit                   0x00003f49         Code  Gb  cexit.o [5]
+_main                   0x00003f3b         Code  Gb  cmain.o [5]
+base_size               0x000040d8    0x4  Data  Lc  tree.o [1]
+cnt                     0x2000274c    0x4  Data  Gb  os_tick.o [1]
+exit                    0x00003f43    0x4  Code  Gb  exit.o [3]
+g_pucRITInit            0x00003d54   0x50  Data  Lc  bsp_display.o [1]
+g_pucRow1               0x00004050    0x8  Data  Lc  bsp_display.o [1]
+g_pucRow2               0x00004058    0x8  Data  Lc  bsp_display.o [1]
+g_pulDCGCRegs           0x0000402c    0xc  Data  Lc  sysctl.o [1]
+g_pulGPIOBaseAddrs      0x00003da4   0x48  Data  Lc  gpio.o [1]
+g_pulRCGCRegs           0x00004020    0xc  Data  Lc  sysctl.o [1]
+g_pulSRCRRegs           0x00004014    0xc  Data  Lc  sysctl.o [1]
+g_pulXtals              0x00003cf8   0x5c  Data  Lc  sysctl.o [1]
+g_ulDelay               0x20002728    0x4  Data  Lc  bsp_display.o [1]
+h                       0x200026f0   0x1c  Data  Gb  os_task.o [1]
+heap_init               0x000009e5   0x22  Code  Gb  tree.o [1]
+heap_pop                0x00000a4d   0x7a  Code  Gb  tree.o [1]
+heap_push               0x00000a07   0x46  Code  Gb  tree.o [1]
+main                    0x000037b5   0x52  Code  Gb  app.o [1]
+
+
+[1] = C:\Users\saurabh\Desktop\Phase1_code&&report\naruto_phase_1\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\Flash\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  15 442 bytes of readonly  code memory
+   1 226 bytes of readonly  data memory
+  11 176 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

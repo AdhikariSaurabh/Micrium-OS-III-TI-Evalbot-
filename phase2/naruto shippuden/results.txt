@@ -1,0 +1,21 @@
+
+Overhead for the single node pop from the heap:
+94 ticks 
+
+Overhead for the single node push from the heap:
+94 ticks 
+
+
+scheduler timestat:
+88 ticks (finding the min from the splay tree and then passing it to the scheduler it)
+
+
+Single OSMutexPend_Mod time :
+3572808888 ticks - 3572809342 ticks
+454 ticks 
+
+Single OSMutexPost_Mod time :
+12838704 ticks - 12838704 ticks 
+616 ticks
+
+

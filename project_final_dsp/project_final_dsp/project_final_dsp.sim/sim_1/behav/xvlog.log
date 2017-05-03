@@ -1,0 +1,38 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0_funcsim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_0
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_0_xbip_dsp48_macro_v3_0__parameterized0
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_0_xbip_dsp48e1_wrapper_v3_0
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_0_xbip_dsp48_macro_synth
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_0_xbip_dsp48_macro_v3_0_viv__parameterized0
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/sources_1/ip/xbip_dsp48_macro_1/xbip_dsp48_macro_1_funcsim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_1
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_1_xbip_dsp48_macro_v3_0__parameterized0
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_1_xbip_pipe_v3_0_viv__parameterized2
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_1_xbip_pipe_v3_0_viv__parameterized3
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_1_xbip_dsp48e1_wrapper_v3_0
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_1_xbip_dsp48_macro_synth
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_1_xbip_dsp48_macro_v3_0_viv__parameterized0
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/sources_1/ip/xbip_dsp48_macro_1/xbip_dsp48_macro_1_funcsim.v:1711]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/sources_1/ip/xbip_dsp48_macro_2/xbip_dsp48_macro_2_funcsim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_2
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_2_xbip_dsp48_macro_v3_0__parameterized0
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_2_xbip_pipe_v3_0_viv__parameterized2
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_2_xbip_pipe_v3_0_viv__parameterized3
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_2_xbip_pipe_v3_0_viv__parameterized5
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_2_xbip_pipe_v3_0_viv__parameterized5_1
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_2_xbip_pipe_v3_0_viv__parameterized7
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_2_xbip_pipe_v3_0_viv__parameterized7_0
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_2_xbip_dsp48e1_wrapper_v3_0
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_2_xbip_dsp48_macro_synth
+INFO: [VRFC 10-311] analyzing module xbip_dsp48_macro_2_xbip_dsp48_macro_v3_0_viv__parameterized0
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/sources_1/ip/xbip_dsp48_macro_2/xbip_dsp48_macro_2_funcsim.v:2850]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/sources_1/new/dspmatrix.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dspmatrix
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/saurabh/Desktop/project_final_dsp/project_final_dsp.srcs/sources_1/new/test_dsp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_dsp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/saurabh/Desktop/project_final_dsp/project_final_dsp.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [/home/saurabh/Desktop/project_final_dsp/project_final_dsp.sim/sim_1/behav/glbl.v:6]
