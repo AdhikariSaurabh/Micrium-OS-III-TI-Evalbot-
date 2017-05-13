@@ -5,8 +5,7 @@ PHASE I
 
 TASK RECURSION AND SCHEDULING
 
-Data Structure
-->
+Data Structure Used:
 
 Splay Tree
 
@@ -16,9 +15,7 @@ PHASE II
 
 RESOURCE SHARING PROTOCOL
 
-Data Structure
-
-->
+Data Structure Used:
 
 2-3-4 Tree
 
